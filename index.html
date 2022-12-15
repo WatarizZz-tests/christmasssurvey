@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp Survey Form</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+        <header class="header">
+  <h1 id="title">Santa Surprise Gift Survey</h1>
+  <p id="description">In addition to your regular list, Santa is preparing something special for you this year !</p>
+</header>
+  <form id="survey-form">
+<fieldset>
+    <div class="form-group">
+   <label id="name-label" for="name">Name:</label> <input id="name" name="name" type="text" placeholder="Enter your name." required class="form-control" /></div>
+   <div class="form-group">
+<label id="email-label" for="email">Email:</label> <input id="email" name="email" type="email" placeholder="Enter your email." required class="form-control" /></div>
+<div class="form-group">
+<label id="number-label" for="age">age (Optional):</label> <input id="number" type="number" name="number" min="4" max="16" placeholder="Enter your age." class="form-control" /> </div>
+<div class="formgroup">
+  <label id="address-label">Address</label> <input id="address" type="text" placeholder="Type here where do you want your gift to be sent to !" required class="form-control"/>
+</div>
+  </fieldset>
+  <fieldset>
+  <label for="dropdown" >What type of gift do you want to get ?
+    <select id="dropdown" >
+  <option>(select one)</option> 
+  <option>Clothes</option>   
+  <option>Video Games</option>   
+  <option>Toys</option>   
+  <option>School furniture</option>   
+  <option>Other</option>   
+  </select>      
+  </label>
+</fieldset>
+<fieldset>
+ <p> What type of kids have you been this year ?</p>
+  <label for="recommendation-type"><input id="Definitely" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Nice</label>
+        <label for="recommendation-type"><input id="Maybe" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Naughty</label>
+         <label for="recommendation-type"><input id="Not sure" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Not sure</label>
+</fieldset>
+<fieldset>
+  <p> Were you kind with your parents ?</p>
+<label for="recommendation-type"><input id="Definitely" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Nice</label>
+        <label for="recommendation-type"><input id="Maybe" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Naughty</label>
+         <label for="recommendation-type"><input id="Not sure" type="radio" name="recommendation-type" class="inline" value="recommendation-type" /> Not sure</label>
+</fieldset>
+<fieldset>
+  <label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Sand playing
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Water Playing
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Dress-Up and Role Play
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Doll and Character Play
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Drawing and Painting
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Blocks, Jigsaws, and Shape Sorters
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Music, Dancing, and Singing
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Imaginative Play
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements" /> Video Games
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements"  /> Running, Jumping, Climbing, Swinging
+</label>
+<label for="improvements" name="improvements" value="improvements">
+          <input id="improvements" type="checkbox"  name="terms-and-conditions" class="inline" value="improvements"  /> Basic Board Games
+</label>
+</fieldset>
+<fieldset>
+<p>Nicest thing you did this year</p>
+          <textarea
+           id="bio"
+            name="bio"
+            class="input-textarea" placeholder="Tell me your story here..."></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</div>
